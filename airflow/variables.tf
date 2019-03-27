@@ -1,0 +1,17 @@
+variable "config_bucket" { default = "" }
+variable "instance_count" { default = 0 }
+variable "instance_name" { default = {}}
+variable "project" { default = "" }
+variable "xpn_project" { default = "" }
+variable "client_ip_range" { default = "" }
+variable "zone" { default = {} }
+variable "network" { default = "" }
+variable "subnetwork" { default = {} }
+variable "service_account" { default = "" }
+variable "instance_type" { default = "" }
+variable "disk_size_gb" { default = 100 }
+variable "disk_type" { default = "" }
+variable "tags" { default = [] }
+variable "maria_ip1" { default = "" }
+variable "maria_ip2" { default = "" }
+variable "airflow_user_mariadb_pwd" { default = "" }
